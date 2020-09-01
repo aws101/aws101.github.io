@@ -978,3 +978,14 @@
         .footer-subsection-form-input{
         width: 85%;
     }
+}
+
+img.author-image{
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 90%;
+}
+
+p.author-blurb{
+  padding-top: 10px;
+}
