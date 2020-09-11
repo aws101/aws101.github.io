@@ -872,7 +872,7 @@
     }
     .footer-subsection-list{
         list-style: none;
-        padding-left: 28px;
+        padding-left: 0px;
     }
     .footer-subsection-list li{
         font-size: 16px;
@@ -889,16 +889,7 @@
 		display:block;
 		margin-bottom:10px;
 	}
-    .footer-subsection-list li:nth-child(1):before{
-        font-family: "FontAwesome";
-        content: "\f041";
-		font-size: 25px;
-		line-height: 1.25;
-		left:41px;
-		position:absolute;
-		display: table-cell;
-		color:#A4C4F3;
-    }
+
     .footer-subsection-list li:nth-child(2):before{
         font-family: "FontAwesome";
         content: "\f095";
