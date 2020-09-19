@@ -67,7 +67,7 @@
         box-shadow: 0 4px 6px 0 rgba(12,0,46,.05);
     }
     .header-scrolled .navbar-brand img{
-        width: 125px;
+        width: 50px;
         height: auto;
     }
     .header-scrolled .nav-link-number {
@@ -90,7 +90,7 @@
     }
     .navbar-brand img {
 		margin-left: 15px;
-        width: 155px;
+        width: 75px;
 		height: auto;
     }
     .navbar-brand-menu{
@@ -351,7 +351,6 @@
     }
     .services-title-section{
         display: flex;
-        justify-content: center;
         flex-direction: column;
         text-align: left;
         width: 100%;
@@ -400,15 +399,14 @@
         background-color: transparent !important; 
     }   
     .services-accordion .panel p{
-        color: #A5A5A5;
         font-family: Poppins;
-        font-size: 14px;
         font-weight: 300;
-        line-height: 1.5;        
+        line-height: 1.5;
+        font-size: 18px;
+        color: #212529;
     }
     @media screen and (max-width: 991.98px){
 		.services-section .services-container{
-            flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -766,6 +764,13 @@
     .contact-header-img img{
         width: 100%;
     }
+
+     @media screen and (max-width: 991.98px){
+        .contact-header-img {
+          display:none;
+        }
+     }
+
     .contact-title-section{
         display: flex;
         justify-content: center;
@@ -796,7 +801,6 @@
     }
     @media screen and (max-width: 991.98px){
         .contact-container{
-            flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -972,11 +976,29 @@
 }
 
 img.author-image{
+  border: 3px solid #dee2e6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 50px;
   border-radius: 50%;
-  width: 90%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img.center{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 p.author-blurb{
   padding-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+div.mailing-list input {
+  font-size: 20px;
 }
