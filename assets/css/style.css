@@ -1037,3 +1037,16 @@ div.center {
   margin-right: auto;
   margin-top: 50px;
 }
+
+ul.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+ul.social li {
+  display: inline-block;
+  margin: 0px 20px 0 0;
+  font-size: 30px;
+}
